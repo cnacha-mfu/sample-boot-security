@@ -1,0 +1,22 @@
+{
+  "tests": [
+   {
+      "name": "test hello",
+      "setup": "",
+      "run": "mvn test -Dtest=HelloControllerTest --file pom.xml",
+      "input": "",
+      "output": "",
+      "timeout": 3,
+      "points": 3
+    },
+    {
+      "name": "test user",
+      "setup": "",
+      "run": "mvn test -Dtest=UserControllerTest --file pom.xml",
+      "input": "",
+      "output": "",
+      "timeout": 3,
+      "points": 3
+    }
+   ]
+}
